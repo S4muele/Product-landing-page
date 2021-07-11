@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Product Landing Page</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<header id="header">
+  
+  <div class="company-name">
+<!--     <div class="logo-wrapper"> -->
+      <img id="header-img" class="logo-img" src="images/company-logo.png" alt="A sketch of an olive tree"> 
+<!--     </div> -->
+    <div class="title-wrapper">
+      <h1 class="title">OLIVERA</h1>
+      <p class="subtitle">Prime Extra Virgin Olive Oil</p>
+    </div>
+  </div> 
+  
+  <nav id="nav-bar">
+    <ul>
+      <li><a class="nav-link" href="#about-section" alt="">About</a></li>
+      <li><a class="nav-link" href="#production-section" alt="">Production</a></li>
+      <li><a class="nav-link" href="#pricing-section" alt="">Pricing</a></li>
+    </ul>
+  </nav> 
+</header>
+
+<main class="main">
+  
+  <section id="about-section" class="container">
+    
+    <div class="section-heading-wrapper">
+
+       <img class="bg-img" src="images/bg-img1.jpeg" alt="A handfull of just harvested olives">
+      
+     <h2 class="section-heading">About Us</h2>
+    </div>
+    
+    <div class="section-content">
+      <p class="section-paragraph">Our olive oil tells the story of an hundred years tradition. Our Olive Oil is made from olive sourced locally and hand harvested by our expert growers.</p>
+      <p class="section-paragraph">We cold press our olives withing 24 hours from picking them and bottle it straight away to preserve their original properties.</p>
+      <p class="section-paragraph">Our exquisite <span class=bold-text>Prime Extra Virgin Olive Oil</span> is pure gold, rich in natural nutrients that promote health and a natural life style.</p>
+    </div>
+    
+</section> <!-- end of about-section -->
+  
+  <section id="production-section" class="container">
+    
+    <div class="section-heading-wrapper">
+
+       <img class="bg-img" src="images/bg-img2.jpeg" alt="A traditional stone mill">
+      
+     <h2 class="section-heading">Our Century Old Tradition</h2>
+    </div>
+    
+    <div class="section-content">
+      
+      <div class="iframe-wrapper">
+
+        <iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/g35m4mOkRSo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      </div>  
+    </div>
+  </section> <!-- end of production-section -->
+  
+  <section id="pricing-section" class="container">
+    
+    <div class="section-heading-wrapper">
+
+       <img class="bg-img" src="images/bg-img3.jpg" alt="">
+      
+     <h2 class="section-heading">Discover Our Selection</h2>
+    </div>
+    
+    <div class="products-wrapper">
+      
+      <div class="product">
+        <div class="product-img-wrapper">
+          <img class="product-img" src="images/product-example.jpeg" alt="">
+        </div>
+        <h3 class="product-name">Classic</h3>
+        <p class="product-description">Our Classic Extra Virgin Oil.</p>
+        <p class="product-price">$11.99</p>
+      </div>
+      
+      <div class="product">
+        <div class="product-img-wrapper">
+          <img class="product-img" src="images/product-example.jpeg" alt="">
+        </div>
+        <h3 class="product-name">Bio</h3>
+        <p class="product-description">Biologic Prime Extra Virgin Olive Oil.</p>
+        <p class="product-price">$14.99</p>
+      </div>
+      
+      <div class="product">
+        <div class="product-img-wrapper">
+          <img class="product-img" src="images/product-example.jpeg" alt="">
+        </div>
+        <h3 class="product-name">Classic Selection</h3>
+        <p class="product-description">A selection of our classic oils.</p>
+        <p class="product-price">$24.99</p>
+      </div>
+      
+      <div class="product">
+        <div class="product-img-wrapper">
+          <img class="product-img" src="images/product-example.jpeg" alt="">
+        </div>
+        <h3 class="product-name">Bio Selection</h3>
+        <p class="product-description">A selection of our prime oils</p>
+        <p class="product-price">$29.99</p>
+      </div>
+    </div>
+  </section> <!--end of pricing section -->
+  
+  <div class="form-wrapper container">
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+
+        <label for="email">Enter your email, and save 10% on your next order!</label>
+
+        <div class="form-submit-area">
+          <input id="email" type="email" name="email" placeholder="Enter your email">
+          <input id="submit" type="submit" value="Submit">
+        </div>
+
+      <img class="form-bg-img" src="images/bg-img4.jpeg" alt="">
+
+      </form>
+  </div> <!--end of form wrapper-->
+  
+  <footer>
+    <p class="">Made by <a class="footer-link credits" href="https://github.com/S4muele">S4muele</a></p>
+  <p class="">Special thanks to <a class="footer-link thanks" href="https://www.freecodecamp.org/">freecodecamp.org</a></p>
+  </footer>
+</main>
+
+  <script  src="./script.js"></script>
+
+</body>
+</html>
